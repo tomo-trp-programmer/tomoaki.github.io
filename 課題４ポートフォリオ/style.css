@@ -1,0 +1,165 @@
+.navbar,
+.main{
+  font-family: palatino,sans-serif;
+}
+
+
+/* r1 */
+.navbar{
+  width: 100%;
+}
+.navbar-brand{
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar-nav{
+  font-size: 15px;
+}
+.h-jumbotron{
+  font-family: palatino,sans-serif;
+  background-image: url(images/h-img.jpeg);
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+}
+.container{
+  font-size: 23px;
+  margin-top: 150px;
+  margin-left: 50px;
+  width: 40%;
+}
+.link{
+  display: block;
+  padding-top: 80px;
+  margin-top: -80px;
+}
+/* r2 */
+
+/* r2-col1 */
+.r2-col{
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.section1{
+  font-family: palatino,sans-serif;
+  background-color: rgba(241, 238, 238, 0.9);
+  width: 95%;
+  height: 95%;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+.section2{
+  font-family: palatino,sans-serif;
+  background-color: rgba(241, 238, 238, 0.9);
+  width: 95%;
+  height: 95%;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+.col1-img{
+  width: 70px;
+}
+.col1-ttl{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.col1-subttl{
+  text-align: center;
+}
+.col1-main{
+  display: flex;
+  justify-content: space-around;
+}
+.col1-text1{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* r3 */
+/* r3-col1 */
+.table{
+  margin: 0 auto;
+}
+
+/* r4 */
+.col1-subttl2{
+  font-size: 20px;
+  text-align: center;
+}
+.profile{
+  width: 200px;
+  height: auto;
+}
+
+/* R5 */
+.r5-col1{
+  background-image: url(images/form-img.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+}
+#form{
+  height: 90%;
+  background-color: rgba(255,255, 255,0.8);
+  font-family: palatino,sans-serif;
+}
+.form-title{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.form-group{
+  font-size: 20px;
+}
+.form-btn{
+  margin-left: 89%;
+}
+
+/* 戻るボタン */
+.pagetop {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 50px;
+  right: 15px;
+  background-color: #333;
+  border-radius: 50%;
+}
+.pagetop a {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+.pagetop a:hover {
+  opacity: 0.5;
+  border-radius: 50%;
+}
+.pagetop a::before {
+  font-weight: 600;
+  content: "▲";
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* r6 */
+.r6{
+  font-family: palatino,sans-serif;
+}
+.r6-col1{
+  height: 50px;
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
